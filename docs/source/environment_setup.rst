@@ -41,14 +41,14 @@ tools::
 Linting environment
 -------------------
 
-Tox_ can create an environment for each linting tool. A cumulative environment
+Tox_ can create an environment for each linter tool. A cumulative environment
 is also available and to run ``yapf``, ``flake8``, ``isort``, ``mypy``, and
 ``doc8``.
 
-This environment can be used to configure the linting tools' path in external
+This environment can be used to configure the linter tools' path in external
 tools::
 
-    poetry run tox -e linting
+    poetry run tox -e linters
     .tox/linting/Scripts/yapf.exe
     .tox/linting/Scripts/flake8.exe
     .tox/linting/Scripts/isort.exe
